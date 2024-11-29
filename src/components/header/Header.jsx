@@ -22,7 +22,7 @@ export default function Header(){
                         <li>
                             <Link className={s.link} to="/">Início</Link>
                         </li>
-                            <Link className={s.Link} to= "/livrosDoados">Livros Doados</Link>
+                            <Link className={s.link} to= "/livrosDoados">Livros Doados</Link>
                         <li>
                             <Link className= {s.link} to="/queroDoar" >Quero Doar </Link>
                         </li>
