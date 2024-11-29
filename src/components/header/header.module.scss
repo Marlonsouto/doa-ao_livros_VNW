@@ -1,0 +1,75 @@
+.conteinerHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #001b2f 0%, #005695 100%);
+    height: 15vh;
+    
+}
+
+
+.imagelogoLivro{
+    display: flex;
+    width: 20%;
+    height: 50px;
+    align-items: center;
+    
+    h2 {
+        font-size: 20px;
+        color: #FFF;
+        
+    }
+    
+}
+
+.navHeader{
+    width: 30%;
+
+    ul{
+        display: flex;
+        color: #FFF;
+        justify-content: space-around;
+        
+    }
+}
+
+.link{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.areaDeProcura{
+    border: solid #fff;
+    width: 20%;
+    border-radius: 20px;
+    margin-right: 1%;
+    align-items: center;
+    justify-content: space-around;
+    height: 6vh;
+    display: flex;
+   
+
+    input {
+        background-color: transparent;
+        border: none;
+        width:80%;
+        height: 6vh;
+        
+    
+        &::placeholder {
+          color: #fff;
+          font-size: 15px;
+          justify-content: space-around;
+        }
+      }
+    button{
+        background: transparent;
+        border: none;
+        
+        height: 4vh;
+        
+    }  
+}
+

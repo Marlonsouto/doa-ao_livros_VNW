@@ -1,0 +1,58 @@
+.conteinerInicio{
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    height: 50vh;
+    background-image: url('../../assets/pessoaComLivros.png');
+    //background-size: contain;
+    //background-size: cover;
+    background-size: 100% 60vh ;
+    background-repeat: no-repeat;
+    align-items: center;
+   
+    h1{
+        border: none;
+        color: aliceblue;
+        width: 30%;
+        justify-content: center;
+        padding-left: 40px ;
+       
+        
+        //width: ;
+    }   
+}
+
+.cardsMain{
+    //display: flex;
+    //justify-content: space-between;
+    //align-items: center;
+    //width: 20%;
+    
+    h1{
+        display: flex;
+        align-items: center;
+        width: 20%;
+        color: #005695;
+        height: 20vh;
+        padding-left: 30px;
+    }
+}
+
+.sectionCards{
+    display: flex;
+    justify-content: space-around ;
+}
+
+
+.cardInformativo{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    align-items: center;
+    background-color: #0157944D;
+    width: 20%;
+    height: 50vh;
+    border-radius: 5%;
+    //justify-content: space-around ; 
+   
+}
