@@ -1,23 +1,69 @@
+
+
 .contatos{
     display: flex;
     justify-content: space-around;
     height: 15vh;
     align-items: center;
     background-color: #005695;
-    margin-top: 80px;
+    margin-top: 15vh;
     
     
     p{
         color: #FFFFFFDB;
-        }
-
-    .navFooter{
-        
-            width: 12%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        
-        
+        font-size: 16px;
+        font-style: Inter;
+        font-weight: 700px;
     }
+
+    .navFooter {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        padding: 10px;
+    
+        ul {
+            display: flex;
+            
+        }
+    
+        li {
+            margin: 0 10px; 
+        }
+    
+        a img {
+            width: 30px; 
+            height: auto;
+            transition: transform 0.3s ease; 
+        }
+    
+        a img:hover {
+            cursor: pointer;
+            transform: scale(1.2); 
+        }
+    }
+
+    
+    
+    
+}    
+.copyright{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 10vh;
+
+
+    p{
+       color: #FFFFFFDB;
+       font-size: 15px;
+
+    }
+
+    
 }
+
+
+ 

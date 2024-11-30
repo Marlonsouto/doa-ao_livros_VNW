@@ -8,7 +8,7 @@ import footerStyle from './footer.module.scss'
 export default function Footer(){
     return(
         
-        <section>
+        <section >
             <section className={footerStyle.contatos}>
                 <p>4002-8922</p>
 
@@ -16,16 +16,27 @@ export default function Footer(){
                     <ul>
                         <li>
                             <a ><img href='' src={facebook} alt="icone facebook" /></a>
-                            <a ><img href='' src={twitter} alt="icone twitter" /></a>
-                            <a ><img href='' src={youtube} alt="icone youtube" /></a>
-                            <a ><img href='' src={linkedin} alt="icone linkedin" /></a>
-                            <a ><img href='' src={instagram} alt="icone instagram" /></a>
                         </li>
+                            <a ><img href='' src={twitter} alt="icone twitter" /></a>
+                            
+                        <li>
+                            <a ><img href='' src={youtube} alt="icone youtube" /></a>   
+                        </li>
+
+                        <li>
+
+                            <a ><img href='' src={linkedin} alt="icone linkedin" /></a>
+                        </li>
+                            
+                        <li>
+                            <a ><img href='' src={instagram} alt="icone instagram" /></a>
+                        </li>    
+                        
                     </ul>
                 </nav>
             </section>
 
-            <section>
+            <section className={footerStyle.copyright}>
                 <p>Layout desenvolvido pela Vai Na Web para fins educativos - 2024  </p>
             </section>
         </section>
