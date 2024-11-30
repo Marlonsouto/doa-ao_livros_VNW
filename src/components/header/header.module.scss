@@ -35,8 +35,8 @@
 
 .link{
     color: #fff;
-    font-size: 20px;
     text-decoration: none;
+    font-size: 20px;
 
 }
 
@@ -60,15 +60,14 @@
     
         &::placeholder {
             display: flex;
-          color: #fff;
-          font-size: 15px;
-          justify-content: space-around;
+            color: #fff;
+            font-size: 15px;
+            justify-content: space-around;
         }
       }
     button{
         background: transparent;
         border: none;
-        
         height: 4vh;
         
     }  
