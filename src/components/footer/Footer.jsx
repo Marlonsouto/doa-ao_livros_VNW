@@ -11,7 +11,8 @@ export default function Footer(){
         <section>
             <section className={footerStyle.contatos}>
                 <p>4002-8922</p>
-                <nav>
+
+                <nav className={footerStyle.navFooter}>
                     <ul>
                         <li>
                             <a ><img href='' src={facebook} alt="icone facebook" /></a>
