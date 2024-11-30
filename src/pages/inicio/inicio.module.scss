@@ -2,7 +2,7 @@
     display: flex;
     background-repeat: no-repeat;
     justify-content: space-between;
-    height: 50vh;
+    height: 80vh;
     background-image: url('../../assets/pessoaComLivros.png');
     //background-size: contain;
     //background-size: cover;
@@ -13,9 +13,11 @@
     h1{
         border: none;
         color: aliceblue;
+        font-size: 32px;
         width: 30%;
         justify-content: center;
         padding-left: 40px ;
+        font-style: Roboto;
        
         
         //width: ;
@@ -31,10 +33,13 @@
     h1{
         display: flex;
         align-items: center;
-        width: 20%;
+        justify-content: space-around;
+        font-size: 40px;
+        width: 90%;
         color: #005695;
         height: 20vh;
-        padding-left: 30px;
+
+        //padding-left: 30px;
     }
 }
 
@@ -60,6 +65,8 @@
         width: 90%;
         justify-content: center;
         align-items: center;
+        font-size: 22px
+        ;
     }
    
 }

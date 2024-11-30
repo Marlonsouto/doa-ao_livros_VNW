@@ -5,14 +5,19 @@
     align-items: center;
     background-color: #005695;
     margin-top: 80px;
-
+    
+    
     p{
         color: #FFFFFFDB;
+        }
 
+    .navFooter{
+        
+            width: 12%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        
+        
     }
-}
-
-.navFooter{
-    display: flex;
-    justify-content: space-around;
 }

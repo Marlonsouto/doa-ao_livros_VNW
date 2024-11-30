@@ -16,7 +16,7 @@ export default function Inicio(){
       <main className={s.cardsMain}>
 
         
-        <h1 >Porque devo doar?</h1>
+        <h1 >Por que devo doar?</h1>
       
         <section className={s.sectionCards}>
 
