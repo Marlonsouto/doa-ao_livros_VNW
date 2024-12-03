@@ -8,11 +8,16 @@ export default function LivrosDoados() {
         Livros Doados
       </h1>
 
-      <section className={styleLivrosDoados.livrosDoados}>
-        <img src={livroVermelho} alt="imagem de um livro " />
-        <p>O protagonista</p>
-        <p>Susanne Andrade</p>
-        <p>Ficção</p>
+      <section className={styleLivrosDoados.cardsLivrosDoados}>
+
+        <section className={styleLivrosDoados.livro}>
+
+          <img src={livroVermelho} alt="imagem de um livro " />
+          <p>O protagonista</p>
+          <p>Susanne Andrade</p>
+          <p>Ficção</p>
+        </section>
+
       </section>
 
     </section>
