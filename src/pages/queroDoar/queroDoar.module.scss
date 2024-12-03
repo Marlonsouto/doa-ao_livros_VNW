@@ -1,0 +1,42 @@
+
+.conteinerQuerodoar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    //justify-content: center;
+    height: 90vh;
+    width: 100%;
+    border: #005695 solid;
+
+
+    h1{
+        align-items: center;
+        //justify-content: center;
+        //border: #005695 solid;
+        text-align: center;
+    }
+
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 70%;
+        height: 70vh;
+        border: solid #005695;
+        border-radius: 10px;
+
+        input{
+            display: flex;
+            text-align: start;
+            height: 5vh;
+            width: 80%;
+            border: solid #005695;
+            border-radius: 10px;
+        }
+
+
+    }
+}
