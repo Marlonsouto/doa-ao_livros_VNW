@@ -11,11 +11,13 @@ export default function QueroDoar() {
         <input type="text" name="categoria" id="" placeholder="Categoria" />
         <input type="text" name="autor" id="" placeholder="Autor" />
         <input type="url" name="LinkImagem" id="" placeholder="Link da imagem" />
-        <input className={styleQueroDoar.submit} type="submit" value="" placeholder="Doar" />
+        <button type="submit">Doar</button>
+
       </form>
     
     </section>
   )
-
+  
 }
 //<h2>Informações do Livro</h2>
+//<input className={styleQueroDoar.submit} type="submit" value="Doar" />

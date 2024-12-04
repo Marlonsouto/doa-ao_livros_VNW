@@ -37,13 +37,33 @@
             height: 5vh;
             width: 80%;
             border: solid #005695;
-            border-radius: 10px;
+            border-radius: 15px;
+            padding-left: 2%;
+            font-size: 14px;
+
+            transition: transform 0.1s ease-in-out;
+
+            &:hover {
+                border-color: linear-gradient(90deg, #001b2f 0%, #005695 100%);
+                transform: scale(1.1); 
+              }
         }
 
-        .submit{
-            width: 40%;
+        button{
+            justify-content: center;
+            width: 50%;
+            color: aliceblue;
             background-color: #005695;
+            border-radius: 10px;
+            height: 5vh;
+            cursor: pointer; 
+              
+
+            &:hover {
+                transform: scale(0.95); 
+              }
         }
+
 
 
     }
